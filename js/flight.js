@@ -1,4 +1,4 @@
-const flightApi = "http://ptx.transportdata.tw/MOTC/v2/Air/FIDS/Flight?$format=JSON";
+const flightApi = "https://ptx.transportdata.tw/MOTC/v2/Air/FIDS/Flight?$format=JSON";
 let flights = [];
 let a = fetch(flightApi)
     .then(blob => {
